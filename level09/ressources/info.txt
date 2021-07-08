@@ -1,0 +1,4 @@
+scp -P 4242 level09@10.30.222.146:token .
+node app.js
+su flag09
+getflag
