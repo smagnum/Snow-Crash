@@ -1,0 +1,18 @@
+After searching on linux architecture system, we found a special video for this purpose :
+https://www.youtube.com/watch?v=A3G-3hp88mo
+
+After searching we found this answer
+https://unix.stackexchange.com/questions/5665/what-does-etc-stand-for#:~:text=And%20there%20were%20a%20few%20files%20in%20the%20operating%20system%20that%20didn%27t%20fit%20in%20any%20of%20the%20existing%20categories.%20This%20included%20a%20passwd%20file%20containing%20users%27%20passwords%2C
+
+
+So passwd placed in etc like a DB of linux
+with scp we moved the passwd file to ubuntu server :
+
+scp -P 4242 level00@192.168.43.169:/etc/passwd .
+
+with john the ripper we can decrypt the password hashed for the flag01
+
+john passwd
+
+abcdefg 
+

