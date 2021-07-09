@@ -1,8 +1,12 @@
 find / -user flag00 2>/dev/null
 
 search for any files and folders by flag00 
-for the dev/null to ignore the errors
+
 
 the files contain : cdiiddwpgswtgt
 
+
+https://www.dcode.fr/shift-cipher
+
 with rot11 we get nottoohardhere
+
